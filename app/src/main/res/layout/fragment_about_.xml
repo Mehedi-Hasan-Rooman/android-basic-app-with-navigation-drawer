@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@+id/about_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aboutus"
+    tools:context=".Fragments.About_Fragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/ClolorBackgraund"
+            android:padding="10dp"
+            android:background="@drawable/button_background"
+            android:id="@+id/button_collapse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Don,t Want Read Any More" />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/button_expend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:padding="8dp"
+            android:text="Read About Us"
+            android:textColor="@color/colorPrimaryDark"
+            app:layout_anchor="@+id/linearLayout"
+            app:layout_anchorGravity="center" />
+
+        <TextView
+            android:fontFamily="serif-monospace"
+            android:shadowColor="@color/ClolorBackgraund"
+            android:id="@+id/text_view_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="State"
+            android:textColor="@color/ClolorBackgraund"
+            android:textSize="50sp" />
+
+
+
+
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/Bottom_Sheet"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@android:color/darker_gray"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="59dp"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:padding="16dp"
+            android:text="@string/About_Us"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

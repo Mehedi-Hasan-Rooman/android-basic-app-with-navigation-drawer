@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    tools:context=".Fragments.Paid_Game_Fragment">
+
+
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:text="@string/premium_mobile_game_n_n_pay_fast_then_play"
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recycler_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+
+</LinearLayout>

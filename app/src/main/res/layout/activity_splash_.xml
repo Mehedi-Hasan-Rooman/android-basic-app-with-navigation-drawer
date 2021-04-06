@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/ClolorBackgraund"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activitys.Splash_Activity">
+
+
+    <ImageView
+        android:src="@drawable/googlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+         />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gaming_future"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="8sp"
+        android:padding="5dp"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_bar" />
+
+</LinearLayout>

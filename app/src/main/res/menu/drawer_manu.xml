@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+
+        <item android:title="Home"
+            android:id="@+id/home_button"
+            android:icon="@drawable/ic_home"
+            android:iconTint="@color/ClolorBackgraund"/>
+
+        <item android:title="Trending Game"
+            android:id="@+id/TrendingGame"
+            android:icon="@drawable/ic_trending"
+            android:iconTint="@color/ClolorBackgraund"/>
+
+        <item android:title="MoblieGame"
+            android:id="@+id/Mobile_Game"
+            android:icon="@drawable/ic_mobile"
+            android:iconTint="@color/ClolorBackgraund"/>
+
+        <item android:title="PaidGame"
+            android:id="@+id/Paid_game"
+            android:icon="@drawable/ic_paid"
+            android:iconTint="@color/ClolorBackgraund"/>
+
+        <item android:title="AdultGame"
+            android:id="@+id/Adult_game"
+            android:icon="@drawable/ic_adult"
+            android:iconTint="@color/ClolorBackgraund"/>
+
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+
+        <item android:title="AboutApp"
+            android:id="@+id/About_app"
+            android:icon="@drawable/ic_about"
+            android:iconTint="@color/colorAccent"/>
+
+        <item android:title="DonateUs"
+            android:id="@+id/Donate_us"
+            android:icon="@drawable/ic_donate"
+            android:iconTint="@color/colorAccent"/>
+    </group>
+</menu>
